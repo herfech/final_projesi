@@ -1,0 +1,8 @@
+[
+    {
+        "id": 1,
+        "name": "user",
+        "email": "user@example.com",
+        "password": "pbkdf2:sha256:1000000$0sS6NHqGB6jM23dA$571f561bfaf9065fd70f594497255e666185e023b0a56dc2bd643af18f0c6cfc"
+    }
+]
