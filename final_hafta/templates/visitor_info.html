@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+{% block page_class %}visitordetail-background{% endblock %}
+
+{% block content %}
+<div class="container py-5 d-flex justify-content-center align-items-center" style="min-height: 80vh;">
+    <div class="card shadow-sm p-4 rounded-4" style="max-width: 600px; width: 100%; background-color: #f8f9fa;">
+        <h2 class="mb-4 text-center text-primary fw-bold">Ziyaretçi Detayları</h2>
+
+        <ul class="list-group list-group-flush mb-4">
+            <li class="list-group-item"><strong>Ad Soyad:</strong> {{ visitor.name }} {{ visitor.surname }}</li>
+            <li class="list-group-item"><strong>Telefon:</strong> {{ visitor.phone }}</li>
+            <li class="list-group-item"><strong>Tarih:</strong> {{ visitor.date }}</li>
+            <li class="list-group-item"><strong>Saat:</strong> {{ visitor.time.strftime('%H:%M:%S') }}</li>
+            <li class="list-group-item"><strong>Diğer Bilgiler:</strong> {{ visitor.other_data or "Yok" }}</li>
+        </ul>
+
+        <div class="d-flex justify-content-between">
+            <a href="/editvisitor/{{ visitor.id }}" class="btn btn-primary px-4">Düzenle</a>
+            <a href="/dashboard" class="btn btn-outline-secondary px-4">Geri Dön</a>
+        </div>
+    </div>
+</div>
+{% endblock %}

@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+{% block page_class %}editvisitor-background{% endblock %}
+{% block content %}
+
+<div class="card-header text-white">
+    <h2 class="fw-bold fs-2">Ziyaretçiyi Düzenle</h2>
+    <form method="POST">
+        <div class="mb-3">
+            <label class="form-label">Ad Soyad</label>
+            <input type="text" class="form-control" name="name" value="{{ visitor.name }}" required>
+        </div>
+        <div class="mb-3">
+            <label class="form-label">Telefon</label>
+            <input type="text" class="form-control" name="phone" value="{{ visitor.phone }}" required>
+        </div>
+        <button type="submit" class="btn btn-primary">Güncelle</button>
+        <a href="{{ url_for('dashboard') }}" class="btn btn-secondary">İptal</a>
+    </form>
+</div>
+
+{% endblock %}

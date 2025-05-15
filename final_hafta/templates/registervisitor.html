@@ -1,0 +1,56 @@
+{% extends "base.html" %}
+{% block page_class %}registervisitor-background {% endblock %}
+{% block content %}
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <div class="card shadow blurred-box">
+                <div class="card-header text-center bg-gradient">
+                    <h4 class="text-white fw-bold">Ziyaretçi Kaydı</h4>
+                </div>
+                <div class="card-body">
+                    {% with messages = get_flashed_messages(with_categories=true) %}
+                        {% if messages %}
+                            {% for category, message in messages %}
+                             <div class="alert alert-{{ category }}">{{ message }}</div>
+                            {% endfor %}
+                        {% endif %}
+                    {% endwith %}
+
+                    <form method="POST" action="/registervisitor">
+                        <div class="mb-3">
+                            <label for="name" class="form-label text-white">Ad:</label>
+                            <input type="text" class="form-control" id="name" name="name" placeholder="Adınızı girin" required>
+                            <label for="surname" class="form-label text-white">Soyad:</label>
+                            <input type="text" class="form-control" id="surname" name="surname" placeholder="soyadınızı girin" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="phone" class="form-label text-white">Telefon:</label>
+                            <input type="phone" class="form-control" id="phone" name="phone" placeholder="Telefon numaranızı girin" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="date" class="form-label text-white">Kayıt Tarihi:</label>
+                            <input type="date" class="form-control" id="date" name="date" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="time" class="form-label text-white">Kayıt Saati:</label>
+                            <input type="time" class="form-control" id="time" name="time" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="notes" class="form-label text-white">Diğer Ziyaretçi Verileri:</label>
+                            <textarea class="form-control" id="other_data" name="other_data" rows="3" placeholder="Ek bilgi ekleyin"></textarea>
+                        </div>
+                        <div class="d-grid">
+                            <button type="submit" class="btn btn-primary text-white btn-lg">Kaydet</button>
+                        </div>
+                    </form>
+                    <div class="text-center mt-3">
+                        <a href="/" class="text-primary">Ana Sayfaya Dön</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+

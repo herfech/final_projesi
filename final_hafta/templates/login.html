@@ -1,0 +1,66 @@
+{% extends "base.html" %}
+{% block page_class %}login-background{% endblock %}
+{% block content %}
+<div class="container mt-5">
+    <div class="row">
+        <!-- Grafik kısmı, yani görseli koyacağım yer -->
+        <div class="col-md-6 d-none d-md-block">
+            <div class="d-flex align-items-center justify-content-center h-100">
+                <div class="text-center">
+                    <h2 class="text-primary fw-medium display-5 text-glow">Giriş Yaparak Ziyaretçi Yönetimini Kolaylaştırın</h2>
+                    <p class="fs-6 text-light">
+                        Hızlı ve güvenli erişimle ziyaretçi kayıtlarını yönetin, bilgileri düzenleyin ve analiz edin.
+                        Sistemimiz, profesyonel ziyaretçi yönetimi için en iyi çözümü sunar.
+                        Hesabınıza giriş yapın ve kayıtlarınızı anında kontrol edin.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Giriş formu -->
+        <div class="col-md-6">
+            <div class="card shadow blurred-box">
+                <div class="card-header text-center bg-gradient">
+                    <h4 class="text-white fw-bold">Sisteme Giriş Yap</h4>
+                </div>
+                <div class="card-body">
+                    <!-- (Hata ve başarı) mesajlarını göster -->
+                    {% with messages = get_flashed_messages(with_categories=true) %}
+                        {% if messages %}
+                            {% for category, message in messages %}
+                            <div class="alert alert-{{ category }}">{{ message }}</div>
+                            {% endfor %}
+                        {% endif %}
+                    {% endwith %}
+
+                    <form method="POST" action="/login">
+                        <div class="mb-3">
+                            <!--<label for="username" class="form-label text-white">Kullanıcı Adı</label>-->
+                            <!--<input type="text" class="form-control" id="name" name="name" placeholder="Kullanıcı adınızı girin" required>-->
+                            <label for="user_identifier" class="form-label text-white">E-posta veya Kullanıcı Adı</label>
+                            <input type="text" class="form-control" id="user_identifier" name="user_identifier" placeholder="E-posta veya kullanıcı adınızı girin" required>
+                            
+                        </div>
+                        <div class="mb-3">
+                            <label for="password" class="form-label text-white">Şifre</label>
+                            <input type="password" class="form-control" id="password" name="password" placeholder="Şifrenizi girin" required>
+                        </div>
+                        <div class="d-flex align-items-center mb-3">
+                            <input type="checkbox" id="remember" name="remember" class="me-2">
+                            <label for="remember" class="text-white">Beni Hatırla</label>
+                            <a href="/forgot-password" class="ms-auto text-primary">Şifremi Unuttum</a>
+                        </div>
+                        <div class="d-grid">
+                            <button type="submit" class="btn btn-primary text-white btn-lg">Giriş Yap</button>
+                        </div>
+                    </form>
+                    <div class="text-center mt-3">
+                        <a href="{{ url_for('createaccount') }}" class="text-light">Hesap Oluştur</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+

@@ -1,0 +1,48 @@
+{% extends "base.html" %}
+{% block page_class %}createaccount-background{% endblock %}
+{% block content %}
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <div class="card shadow border-0 blurred-box">
+                <div class="card-header text-center bg-gradient">
+                    <h4 class="text-white fw-bold">Hesap Oluştur</h4>
+                </div>
+                <div class="card-body">
+                    {% with messages = get_flashed_messages(with_categories=true) %}
+                        {% if messages %}
+                            {% for category, message in messages %}
+                        <div class="alert alert-{{ category }}">{{ message }}</div>
+                            {% endfor %}
+                        {% endif %}
+                    {% endwith %}                
+                    <form method="POST" action="{{ url_for('createaccount') }}">
+                        <div class="mb-3">
+                            <label for="name" class="form-label text-white">Ad Soyad</label>
+                            <input type="text" class="form-control" id="name" name="name" placeholder="Kullanıcı adınızı girin" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label text-white">E-posta</label>
+                            <input type="email" class="form-control" id="email" name="email" placeholder="E-posta adresinizi girin" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="password" class="form-label text-white">Şifre</label>
+                            <input type="password" class="form-control" id="password" name="password" placeholder="Şifrenizi oluşturun" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="confirm-password" class="form-label text-white">Şifreyi Onayla</label>
+                            <input type="password" class="form-control" id="confirm_password" name="confirm_password" placeholder="Şifrenizi tekrar girin" required>
+                        </div>
+                        <div class="d-grid">
+                            <button type="submit" class="btn btn-primary text-white btn-lg">Hesap Oluştur</button>
+                        </div>
+                    </form>
+                    <div class="text-center mt-3">
+                        <p class="text-light">Zaten bir hesabınız var mı? <a href="/login" class="text-primary">Giriş Yap</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
