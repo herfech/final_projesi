@@ -183,8 +183,6 @@ def dashboard():
 
 
 
-
-
 @app.route('/visitor_info/<int:id>')
 @login_required
 def visitor_info(id):
