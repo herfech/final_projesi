@@ -68,23 +68,25 @@ Final_hafta/
 │   ├── index.html
 │   ├── login.html
 │   ├── registervisitor.html
-│   ├── forgot-password.html
-│   ├── createaccount.html
 │   ├── dashboard.html
+│   ├── editvisitor.htm
 │   ├── visitor_info.html
-│   ├── editvisitor.html
+│   ├── createaccount.html
+│   ├── forgot-password.html
 ├── static/
 │   ├── styles.css
 │   ├── img/
 ├── instance/
 │   ├── site.db
 ├── app.py
-├── data_manager.py
 ├── models.py
+├── data_manager.py
+├── export_data.py
 ├── users.json
 ├── visitors.json
 ├── requirements.txt
 ├── README.md
+├── backup.zip
 ```
 
 ## 🎨 Tasarım Özellikleri  
