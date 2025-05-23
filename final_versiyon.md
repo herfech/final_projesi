@@ -1,4 +1,4 @@
-# Ziyaretçi Kayıt Sistemi  
+# Konut Ziyaretçi Kayıt Sistemi  
 
 Bu proje, ziyaretçi kayıtlarını yönetmek için geliştirilen bir web uygulamasıdır.  
 Kullanıcı dostu bir arayüzle, ziyaretçi bilgilerini kaydetme, görüntüleme ve düzenleme işlemlerini kolaylaştırır.  
