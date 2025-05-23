@@ -5,13 +5,13 @@ Kullanıcı dostu bir arayüzle, ziyaretçi bilgilerini kaydetme, görüntüleme
 
 ## 📌 zellikler 
 
-✅ Modern ve responsive tasarım  
-✅ Flask framework kullanımı 
-✅ Bootstrap 5 entegrasyonu 
-✅ Kullanıcı dostu arayüz 
+✅ Modern ve responsive tasarım
+✅ Flask framework kullanımı
+✅ Bootstrap 5 entegrasyonu
+✅ Kullanıcı dostu arayüz
 ✅ Ziyaretçi kaydı ve yönetimi
 ✅ Şifremi Unuttum özelliği
-✅ Arama ve filtreleme sistemi 
+✅ Arama ve filtreleme sistemi
 ✅ Flask ile temiz ve düzenli kod
 ✅ Veri yedekleme ve dışa aktarma sistemi
 
