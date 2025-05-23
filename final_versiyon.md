@@ -37,14 +37,17 @@ Kullanıcı dostu bir arayüzle, ziyaretçi bilgilerini kaydetme, görüntüleme
 - HTML5  
 - CSS3  
 - Bootstrap 5  
-- Jinja2 Template Engine  
+- Jinja2 Template Engine
+- SQLite (Veritabanı)
+- Flask-Maıl (Şifre kurtarma için)
+- Zipfile (Veri yedekleme için)
 
 ## 🚀 Kurulum ve Çalıştırma  
 
 1. Depoyu klonlayın:  
 ```bash
-git clone https://github.com/kullaniciadi/ziyaretci-kayit-sistemi.git
-cd ziyaretci-kayit-sistemi
+git clone https://github.com/kullaniciadi/final_projesi.git
+cd final_projesi
 ```
 
 2. Gerekli paketleri yükleyin:  
@@ -77,16 +80,16 @@ Final_hafta/
 │   ├── styles.css
 │   ├── img/
 ├── instance/
-│   ├── site.db
-├── app.py
-├── models.py
-├── data_manager.py
-├── export_data.py
-├── users.json
-├── visitors.json
-├── requirements.txt
-├── README.md
-├── backup.zip
+│   ├── site.db           # SQLite veritabanı dosyası
+├── app.py                # Ana uygulama dosyası
+├── models.py             # Veritabanı modelleri
+├── data_manager.py       # JSON ve veritabanı işlemleri
+├── export_data.py        # SQLite verilerini JSON’a dönüştüren ve ZIP arşivi oluşturan betik
+├── users.json            # Kullanıcı bilgilerini saklayan JSON dosyası
+├── visitors.json         # Ziyaretçi kayıtlarını saklayan JSON dosyası
+├── requirements.txt      # Gerekli paketler listes
+├── README.md             # Proje bilgileri
+├── backup.zip            # Ziyaretçi ve kullanıcı verilerini içeren sıkıştırılmış dosya
 ```
 
 ## 🎨 Tasarım Özellikleri  
