@@ -4,5 +4,11 @@
         "name": "user",
         "email": "user@example.com",
         "password": "pbkdf2:sha256:1000000$0sS6NHqGB6jM23dA$571f561bfaf9065fd70f594497255e666185e023b0a56dc2bd643af18f0c6cfc"
+    },
+    {
+        "id": 2,
+        "name": "Heriberto",
+        "email": "heriberto@example.com",
+        "password": "pbkdf2:sha256:1000000$TbFnKlNHhnk50Laf$5c6c0ad2c5f06ebc1d198a7f238d6cebda2095a6b233eff16e5119dded7154f7"
     }
 ]
