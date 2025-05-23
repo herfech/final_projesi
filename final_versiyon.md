@@ -148,3 +148,5 @@ python export_data.py
 ✅ Bootstrap ikon entegrasyonu 
 
 ---
+Render sitesinin bağlantısı
+https://ziyaretci-kayit.onrender.com
