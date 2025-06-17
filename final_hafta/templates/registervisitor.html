@@ -36,6 +36,16 @@
                             <label for="time" class="form-label text-white">Kayıt Saati:</label>
                             <input type="time" class="form-control" id="time" name="time" required>
                         </div>
+                        <!-- ziyaretçi türü (yeni alan) -->
+                        <div class="mb-3">
+                            <label for="visitor_type" class="form-label text-white">Ziyaretçi Türü:</label>
+                            <select class="form-control" id="visitor_type" name="visitor_type">
+                                <option value="Misafir">Misafir</option>
+                                <option value="Tedarikçi">Tedarikçi</option>
+                                <option value="Aile üyesi">Aile üyesi</option>
+                                <option value="Sakin">Sakin</option>
+                            </select>
+                        </div>
                         <div class="mb-3">
                             <label for="notes" class="form-label text-white">Diğer Ziyaretçi Verileri:</label>
                             <textarea class="form-control" id="other_data" name="other_data" rows="3" placeholder="Ek bilgi ekleyin"></textarea>

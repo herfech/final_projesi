@@ -11,6 +11,7 @@
             <li class="list-group-item"><strong>Telefon:</strong> {{ visitor.phone }}</li>
             <li class="list-group-item"><strong>Tarih:</strong> {{ visitor.date }}</li>
             <li class="list-group-item"><strong>Saat:</strong> {{ visitor.time.strftime('%H:%M:%S') }}</li>
+            <li class="list-group-item"><strong>Ziyaretçi Türü:</strong> {{ visitor.visitor_type or "Belirtilmemiş"}}</li> <!--yeni uygulama-->
             <li class="list-group-item"><strong>Diğer Bilgiler:</strong> {{ visitor.other_data or "Yok" }}</li>
         </ul>
 

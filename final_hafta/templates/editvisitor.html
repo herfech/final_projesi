@@ -6,12 +6,26 @@
     <h2 class="fw-bold fs-2">Ziyaretçiyi Düzenle</h2>
     <form method="POST">
         <div class="mb-3">
-            <label class="form-label">Ad Soyad</label>
+            <label class="form-label">Ad</label>
             <input type="text" class="form-control" name="name" value="{{ visitor.name }}" required>
+        </div>
+        <div class="mb-3">
+            <label class="form-label">Soyad</label>
+            <input type="text" class="form-control" name="surname" value="{{ visitor.surname }}" required>
         </div>
         <div class="mb-3">
             <label class="form-label">Telefon</label>
             <input type="text" class="form-control" name="phone" value="{{ visitor.phone }}" required>
+        </div>
+        <!-- Yeni alan: Ziyaretçi türünü düzenlemek için -->
+        <div class="mb-3">
+            <label class="form-label">Ziyaretçi Türü</label>
+            <select class="form-control" name="visitor_type">
+                <option value="Misafir" {% if visitor.visitor_type == "Misafir" %}selected{% endif %}>Misafir</option>
+                <option value="Tedarikçi" {% if visitor.visitor_type == "Tedarikçi" %}selected{% endif %}>Tedarikçi</option>
+                <option value="Aile üyesi" {% if visitor.visitor_type == "Aile üyesi" %}selected{% endif %}>Aile üyesi</option>
+                <option value="Sakin" {% if visitor.visitor_type == "Sakin" %}selected{% endif %}>Sakin</option>
+            </select>
         </div>
         <button type="submit" class="btn btn-primary">Güncelle</button>
         <a href="{{ url_for('dashboard') }}" class="btn btn-secondary">İptal</a>

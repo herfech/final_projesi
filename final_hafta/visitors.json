@@ -6,7 +6,8 @@
         "phone": "0555 169 18 43",
         "date": "2025-05-16",
         "time": "00:51:35.180561",
-        "other_data": ""
+        "other_data": "",
+        "Visitor_type": "Sakin"
     },
     {
         "id": 2,
@@ -15,7 +16,8 @@
         "phone": "0544 875 45 12",
         "date": "2025-05-16",
         "time": "00:52:16.669653",
-        "other_data": ""
+        "other_data": "",
+        "Visitor_type": "Sakin"
     },
     {
         "id": 3,
@@ -24,7 +26,8 @@
         "phone": "0536 523 71 42",
         "date": "2025-05-16",
         "time": "00:52:56.748198",
-        "other_data": ""
+        "other_data": "",
+        "Visitor_type": "Sakin"
     },
     {
         "id": 4,
@@ -33,16 +36,8 @@
         "phone": "0555 160 18 43",
         "date": "2025-05-16",
         "time": "00:54:05.586751",
-        "other_data": ""
-    },
-    {
-        "id": 5,
-        "name": "Berfin",
-        "surname": "Tok",
-        "phone": "0555 249 20 43",
-        "date": "2025-05-16",
-        "time": "00:54:45.175099",
-        "other_data": ""
+        "other_data": "",
+        "Visitor_type": "Sakin"
     },
     {
         "id": 6,
@@ -51,7 +46,8 @@
         "phone": "0556 249 20 43",
         "date": "2025-05-16",
         "time": "00:55:24.721414",
-        "other_data": ""
+        "other_data": "",
+        "Visitor_type": "Sakin"
     },
     {
         "id": 7,
@@ -60,7 +56,8 @@
         "phone": "0545 169 18 43",
         "date": "2025-05-16",
         "time": "00:55:59.566276",
-        "other_data": ""
+        "other_data": "",
+        "Visitor_type": "Sakin"
     },
     {
         "id": 8,
@@ -69,7 +66,8 @@
         "phone": "0544 513 64 42",
         "date": "2025-05-16",
         "time": "00:56:46.561871",
-        "other_data": ""
+        "other_data": "",
+        "Visitor_type": "Aile üyesi"
     },
     {
         "id": 9,
@@ -78,7 +76,8 @@
         "phone": "0544 149 20 43",
         "date": "2025-05-16",
         "time": "00:57:25.603858",
-        "other_data": ""
+        "other_data": "",
+        "Visitor_type": "Aile üyesi"
     },
     {
         "id": 10,
@@ -87,7 +86,8 @@
         "phone": "0545 269 18 43",
         "date": "2025-05-16",
         "time": "00:58:04.659929",
-        "other_data": ""
+        "other_data": "",
+        "Visitor_type": "Aile üyesi"
     },
     {
         "id": 11,
@@ -96,7 +96,8 @@
         "phone": "0546 128 29 01",
         "date": "2025-05-16",
         "time": "00:59:14.915271",
-        "other_data": ""
+        "other_data": "",
+        "Visitor_type": "Aile üyesi"
     },
     {
         "id": 12,
@@ -105,7 +106,8 @@
         "phone": "0546 128 29 02",
         "date": "2025-05-16",
         "time": "00:59:48.803034",
-        "other_data": ""
+        "other_data": "",
+        "Visitor_type": "Aile üyesi"
     },
     {
         "id": 13,
@@ -114,7 +116,8 @@
         "phone": "0546 128 27 02",
         "date": "2025-05-16",
         "time": "01:00:25.624451",
-        "other_data": ""
+        "other_data": "",
+        "Visitor_type": "Sakin"
     },
     {
         "id": 14,
@@ -123,7 +126,8 @@
         "phone": "0546 128 27 03",
         "date": "2025-05-16",
         "time": "01:00:59.409474",
-        "other_data": ""
+        "other_data": "",
+        "Visitor_type": "Sakin"
     },
     {
         "id": 15,
@@ -132,7 +136,8 @@
         "phone": "0546 125 27 03",
         "date": "2025-05-16",
         "time": "01:01:28.534897",
-        "other_data": ""
+        "other_data": "",
+        "Visitor_type": "Sakin"
     },
     {
         "id": 16,
@@ -141,7 +146,8 @@
         "phone": "0536 523 64 50",
         "date": "2025-05-17",
         "time": "22:08:14.141790",
-        "other_data": ""
+        "other_data": "",
+        "Visitor_type": "Sakin"
     },
     {
         "id": 17,
@@ -150,7 +156,8 @@
         "phone": "0544 958 85 74",
         "date": "2025-05-17",
         "time": "22:08:59.518802",
-        "other_data": ""
+        "other_data": "",
+        "Visitor_type": "Sakin"
     },
     {
         "id": 18,
@@ -159,7 +166,8 @@
         "phone": "0537 523 74 42",
         "date": "2025-05-17",
         "time": "22:09:38.439301",
-        "other_data": ""
+        "other_data": "",
+        "Visitor_type": "Sakin"
     },
     {
         "id": 19,
@@ -168,7 +176,8 @@
         "phone": "0536 513 64 42",
         "date": "2025-05-17",
         "time": "22:10:16.950342",
-        "other_data": ""
+        "other_data": "",
+        "Visitor_type": "Sakin"
     },
     {
         "id": 20,
@@ -177,7 +186,8 @@
         "phone": "0506 763 41 19",
         "date": "2025-05-17",
         "time": "22:11:56.428311",
-        "other_data": ""
+        "other_data": "",
+        "Visitor_type": "Misafir"
     },
     {
         "id": 21,
@@ -186,7 +196,8 @@
         "phone": "0506 763 51 19",
         "date": "2025-05-17",
         "time": "22:12:31.157407",
-        "other_data": ""
+        "other_data": "",
+        "Visitor_type": "Misafir"
     },
     {
         "id": 22,
@@ -195,7 +206,8 @@
         "phone": "0506 563 51 19",
         "date": "2025-05-17",
         "time": "22:12:57.076512",
-        "other_data": ""
+        "other_data": "",
+        "Visitor_type": "Misafir"
     },
     {
         "id": 23,
@@ -204,7 +216,8 @@
         "phone": "0506 463 51 19",
         "date": "2025-05-17",
         "time": "22:13:33.654502",
-        "other_data": ""
+        "other_data": "",
+        "Visitor_type": "Misafir"
     },
     {
         "id": 24,
@@ -213,7 +226,8 @@
         "phone": "0506 463 51 20",
         "date": "2025-05-17",
         "time": "22:14:16.162957",
-        "other_data": ""
+        "other_data": "",
+        "Visitor_type": "Aile üyesi"
     },
     {
         "id": 25,
@@ -222,7 +236,8 @@
         "phone": "0506 413 51 20",
         "date": "2025-05-17",
         "time": "22:14:48.804181",
-        "other_data": ""
+        "other_data": "",
+        "Visitor_type": "Aile üyesi"
     },
     {
         "id": 26,
@@ -231,7 +246,8 @@
         "phone": "0506 413 71 20",
         "date": "2025-05-17",
         "time": "22:15:17.408540",
-        "other_data": ""
+        "other_data": "",
+        "Visitor_type": "Aile üyesi"
     },
     {
         "id": 27,
@@ -240,7 +256,8 @@
         "phone": "0506 413 71 30",
         "date": "2025-05-17",
         "time": "22:15:41.563711",
-        "other_data": ""
+        "other_data": "",
+        "Visitor_type": "Aile üyesi"
     },
     {
         "id": 28,
@@ -249,7 +266,8 @@
         "phone": "0506 413 71 31",
         "date": "2025-05-17",
         "time": "22:16:12.969276",
-        "other_data": ""
+        "other_data": "",
+        "Visitor_type": "Sakin"
     },
     {
         "id": 29,
@@ -258,7 +276,8 @@
         "phone": "0506 413 91 31",
         "date": "2025-05-17",
         "time": "22:16:44.226188",
-        "other_data": ""
+        "other_data": "",
+        "Visitor_type": "Sakin"
     },
     {
         "id": 30,
@@ -267,7 +286,8 @@
         "phone": "0501 032 73 61",
         "date": "2025-05-17",
         "time": "22:17:34.047498",
-        "other_data": ""
+        "other_data": "",
+        "Visitor_type": "Aile üyesi"
     },
     {
         "id": 31,
@@ -276,7 +296,8 @@
         "phone": "0501 032 73 63",
         "date": "2025-05-17",
         "time": "22:18:06.972518",
-        "other_data": ""
+        "other_data": "",
+        "Visitor_type": "Sakin"
     },
     {
         "id": 32,
@@ -285,7 +306,8 @@
         "phone": "0501 032 74 63",
         "date": "2025-05-17",
         "time": "22:18:38.781628",
-        "other_data": ""
+        "other_data": "",
+        "Visitor_type": "Sakin"
     },
     {
         "id": 33,
@@ -294,7 +316,8 @@
         "phone": "0501 032 54 63",
         "date": "2025-05-22",
         "time": "20:54:50.557289",
-        "other_data": ""
+        "other_data": "",
+        "Visitor_type": "Sakin"
     },
     {
         "id": 34,
@@ -303,7 +326,8 @@
         "phone": "0501 132 54 63",
         "date": "2025-05-22",
         "time": "20:55:26.293276",
-        "other_data": ""
+        "other_data": "",
+        "Visitor_type": "Sakin"
     },
     {
         "id": 35,
@@ -312,7 +336,8 @@
         "phone": "0501 132 57 63",
         "date": "2025-05-22",
         "time": "20:56:03.864329",
-        "other_data": ""
+        "other_data": "",
+        "Visitor_type": "Sakin"
     },
     {
         "id": 36,
@@ -321,7 +346,8 @@
         "phone": "0505 132 57 63",
         "date": "2025-05-22",
         "time": "20:56:30.199234",
-        "other_data": ""
+        "other_data": "",
+        "Visitor_type": "Sakin"
     },
     {
         "id": 37,
@@ -330,7 +356,8 @@
         "phone": "0505 102 57 63",
         "date": "2025-05-22",
         "time": "20:57:00.107495",
-        "other_data": ""
+        "other_data": "",
+        "Visitor_type": "Misafir"
     },
     {
         "id": 38,
@@ -339,7 +366,8 @@
         "phone": "0505 152 57 63",
         "date": "2025-05-22",
         "time": "20:57:47.993542",
-        "other_data": ""
+        "other_data": "",
+        "Visitor_type": "Sakin"
     },
     {
         "id": 39,
@@ -348,7 +376,8 @@
         "phone": "0505 152 67 63",
         "date": "2025-05-22",
         "time": "20:58:21.363084",
-        "other_data": ""
+        "other_data": "",
+        "Visitor_type": "Sakin"
     },
     {
         "id": 40,
@@ -357,7 +386,8 @@
         "phone": "0505 152 30 63",
         "date": "2025-05-22",
         "time": "21:03:05.072054",
-        "other_data": ""
+        "other_data": "",
+        "Visitor_type": "Sakin"
     },
     {
         "id": 41,
@@ -366,7 +396,8 @@
         "phone": "0555 159 18 43",
         "date": "2025-05-22",
         "time": "21:03:53.419367",
-        "other_data": ""
+        "other_data": "",
+        "Visitor_type": "Sakin"
     },
     {
         "id": 42,
@@ -375,7 +406,8 @@
         "phone": "0555 159 28 43",
         "date": "2025-05-22",
         "time": "21:04:54.107165",
-        "other_data": ""
+        "other_data": "",
+        "Visitor_type": "Sakin"
     },
     {
         "id": 43,
@@ -384,7 +416,8 @@
         "phone": "0555 159 28 44",
         "date": "2025-05-22",
         "time": "21:05:12.897378",
-        "other_data": ""
+        "other_data": "",
+        "Visitor_type": "Sakin"
     },
     {
         "id": 44,
@@ -393,7 +426,8 @@
         "phone": "0555 359 28 44",
         "date": "2025-05-22",
         "time": "21:05:39.440426",
-        "other_data": ""
+        "other_data": "",
+        "Visitor_type": "Sakin"
     },
     {
         "id": 45,
@@ -402,7 +436,8 @@
         "phone": "0505 169 17 43",
         "date": "2025-05-22",
         "time": "21:06:06.505686",
-        "other_data": ""
+        "other_data": "",
+        "Visitor_type": "Sakin"
     },
     {
         "id": 46,
@@ -411,7 +446,8 @@
         "phone": "0505 119 17 43",
         "date": "2025-05-22",
         "time": "21:06:43.880484",
-        "other_data": ""
+        "other_data": "",
+        "Visitor_type": "Sakin"
     },
     {
         "id": 47,
@@ -420,7 +456,8 @@
         "phone": "0504 169 17 43",
         "date": "2025-05-22",
         "time": "21:07:25.697706",
-        "other_data": ""
+        "other_data": "",
+        "Visitor_type": "Sakin"
     },
     {
         "id": 48,
@@ -429,7 +466,8 @@
         "phone": "0504 169 27 43",
         "date": "2025-05-22",
         "time": "21:07:49.650872",
-        "other_data": ""
+        "other_data": "",
+        "Visitor_type": "Sakin"
     },
     {
         "id": 49,
@@ -438,7 +476,8 @@
         "phone": "0555 169 00 43",
         "date": "2025-05-22",
         "time": "21:08:30.001826",
-        "other_data": ""
+        "other_data": "",
+        "Visitor_type": "Sakin"
     },
     {
         "id": 50,
@@ -447,7 +486,8 @@
         "phone": "0555 169 01 43",
         "date": "2025-05-22",
         "time": "21:09:05.177041",
-        "other_data": ""
+        "other_data": "",
+        "Visitor_type": "Sakin"
     },
     {
         "id": 51,
@@ -456,7 +496,8 @@
         "phone": "0555 169 11 43",
         "date": "2025-05-22",
         "time": "21:09:29.176166",
-        "other_data": ""
+        "other_data": "",
+        "Visitor_type": "Sakin"
     },
     {
         "id": 52,
@@ -465,7 +506,8 @@
         "phone": "0555 169 02 43",
         "date": "2025-05-22",
         "time": "21:09:56.273275",
-        "other_data": ""
+        "other_data": "",
+        "Visitor_type": "Sakin"
     },
     {
         "id": 53,
@@ -474,7 +516,8 @@
         "phone": "0555 169 22 43",
         "date": "2025-05-22",
         "time": "21:10:20.175172",
-        "other_data": ""
+        "other_data": "",
+        "Visitor_type": "Sakin"
     },
     {
         "id": 54,
@@ -483,7 +526,8 @@
         "phone": "0536 523 00 42",
         "date": "2025-05-22",
         "time": "21:10:53.712405",
-        "other_data": ""
+        "other_data": "",
+        "Visitor_type": "Sakin"
     },
     {
         "id": 55,
@@ -492,7 +536,8 @@
         "phone": "0536 503 00 42",
         "date": "2025-05-22",
         "time": "21:11:19.733527",
-        "other_data": ""
+        "other_data": "",
+        "Visitor_type": "Sakin"
     },
     {
         "id": 56,
@@ -501,7 +546,8 @@
         "phone": "0536 513 00 42",
         "date": "2025-05-22",
         "time": "21:11:50.228051",
-        "other_data": ""
+        "other_data": "",
+        "Visitor_type": "Sakin"
     },
     {
         "id": 57,
@@ -510,7 +556,8 @@
         "phone": "0544 507 51 63",
         "date": "2025-05-23",
         "time": "15:29:18.114619",
-        "other_data": ""
+        "other_data": "",
+        "Visitor_type": "Aile üyesi"
     },
     {
         "id": 58,
@@ -519,7 +566,8 @@
         "phone": "0544 507 51 65",
         "date": "2025-05-23",
         "time": "15:29:52.331385",
-        "other_data": ""
+        "other_data": "",
+        "Visitor_type": "Aile üyesi"
     },
     {
         "id": 59,
@@ -528,7 +576,8 @@
         "phone": "0544 507 71 65",
         "date": "2025-05-23",
         "time": "15:30:23.665736",
-        "other_data": ""
+        "other_data": "",
+        "Visitor_type": "Aile üyesi"
     },
     {
         "id": 60,
@@ -537,7 +586,8 @@
         "phone": "0544 517 51 63",
         "date": "2025-05-23",
         "time": "15:31:13.160320",
-        "other_data": ""
+        "other_data": "",
+        "Visitor_type": "Tedarikçi"
     },
     {
         "id": 61,
@@ -546,7 +596,8 @@
         "phone": "0544 127 51 63",
         "date": "2025-05-23",
         "time": "15:32:43.591605",
-        "other_data": ""
+        "other_data": "",
+        "Visitor_type": "Tedarikçi"
     },
     {
         "id": 62,
@@ -555,7 +606,8 @@
         "phone": "0504 517 51 64",
         "date": "2025-05-23",
         "time": "15:33:12.361468",
-        "other_data": ""
+        "other_data": "",
+        "Visitor_type": "Tedarikçi"
     },
     {
         "id": 63,
@@ -564,7 +616,8 @@
         "phone": "0504 527 71 65",
         "date": "2025-05-23",
         "time": "15:33:50.376468",
-        "other_data": ""
+        "other_data": "",
+        "Visitor_type": "Tedarikçi"
     },
     {
         "id": 64,
@@ -573,7 +626,8 @@
         "phone": "0533 217 51 63",
         "date": "2025-05-23",
         "time": "15:34:21.636258",
-        "other_data": ""
+        "other_data": "",
+        "Visitor_type": "Misafir"
     },
     {
         "id": 65,
@@ -582,7 +636,8 @@
         "phone": "0530 507 71 65",
         "date": "2025-05-23",
         "time": "15:34:58.819652",
-        "other_data": ""
+        "other_data": "",
+        "Visitor_type": "Misafir"
     },
     {
         "id": 66,
@@ -591,7 +646,8 @@
         "phone": "0506 648 64 49",
         "date": "2025-05-23",
         "time": "15:35:48.005237",
-        "other_data": ""
+        "other_data": "",
+        "Visitor_type": "Misafir"
     },
     {
         "id": 67,
@@ -600,7 +656,8 @@
         "phone": "0506 648 54 49",
         "date": "2025-05-23",
         "time": "15:36:33.756430",
-        "other_data": ""
+        "other_data": "",
+        "Visitor_type": "Aile üyesi"
     },
     {
         "id": 68,
@@ -609,7 +666,8 @@
         "phone": "0506 648 64 50",
         "date": "2025-05-23",
         "time": "15:37:02.722400",
-        "other_data": ""
+        "other_data": "",
+        "Visitor_type": "Tedarikçi"
     },
     {
         "id": 69,
@@ -618,7 +676,8 @@
         "phone": "0506 628 64 50",
         "date": "2025-05-23",
         "time": "15:37:34.774441",
-        "other_data": ""
+        "other_data": "",
+        "Visitor_type": "Misafir"
     },
     {
         "id": 70,
@@ -627,7 +686,8 @@
         "phone": "0543 538 61 38",
         "date": "2025-05-23",
         "time": "15:38:26.196832",
-        "other_data": ""
+        "other_data": "",
+        "Visitor_type": "Misafir"
     },
     {
         "id": 71,
@@ -636,7 +696,8 @@
         "phone": "0552 692 16 09",
         "date": "2025-05-23",
         "time": "15:39:03.040721",
-        "other_data": ""
+        "other_data": "",
+        "Visitor_type": "Sakin"
     },
     {
         "id": 72,
@@ -645,7 +706,8 @@
         "phone": "0507 127 29 39",
         "date": "2025-05-23",
         "time": "15:39:59.537969",
-        "other_data": ""
+        "other_data": "",
+        "Visitor_type": "Sakin"
     },
     {
         "id": 73,
@@ -654,7 +716,8 @@
         "phone": "0551 087 89 61",
         "date": "2025-05-23",
         "time": "15:41:01.623943",
-        "other_data": ""
+        "other_data": "",
+        "Visitor_type": "Sakin"
     },
     {
         "id": 74,
@@ -663,7 +726,8 @@
         "phone": "0535 285 96 30",
         "date": "2025-05-23",
         "time": "15:43:00.461856",
-        "other_data": ""
+        "other_data": "",
+        "Visitor_type": "Sakin"
     },
     {
         "id": 76,
@@ -672,7 +736,8 @@
         "phone": "0506 041 26 30",
         "date": "2025-05-23",
         "time": "15:45:20.477401",
-        "other_data": ""
+        "other_data": "",
+        "Visitor_type": "Sakin"
     },
     {
         "id": 77,
@@ -681,7 +746,8 @@
         "phone": "0552 183 73 75",
         "date": "2025-05-23",
         "time": "15:46:04.333107",
-        "other_data": ""
+        "other_data": "",
+        "Visitor_type": "Sakin"
     },
     {
         "id": 78,
@@ -690,7 +756,8 @@
         "phone": "0555 152 77 74",
         "date": "2025-05-23",
         "time": "15:47:17.472074",
-        "other_data": ""
+        "other_data": "",
+        "Visitor_type": "Aile üyesi"
     },
     {
         "id": 79,
@@ -699,7 +766,8 @@
         "phone": "0531 353 72 86",
         "date": "2025-05-23",
         "time": "15:48:15.872765",
-        "other_data": ""
+        "other_data": "",
+        "Visitor_type": "Sakin"
     },
     {
         "id": 80,
@@ -708,7 +776,8 @@
         "phone": "0506 620 17 02",
         "date": "2025-05-23",
         "time": "15:50:10.097505",
-        "other_data": ""
+        "other_data": "",
+        "Visitor_type": "Sakin"
     },
     {
         "id": 81,
@@ -717,7 +786,8 @@
         "phone": "0542 738 30 37",
         "date": "2025-05-23",
         "time": "15:51:07.490790",
-        "other_data": ""
+        "other_data": "",
+        "Visitor_type": "Sakin"
     },
     {
         "id": 82,
@@ -726,7 +796,8 @@
         "phone": "0541 188 94 50",
         "date": "2025-05-23",
         "time": "15:51:45.351208",
-        "other_data": ""
+        "other_data": "",
+        "Visitor_type": "Sakin"
     },
     {
         "id": 83,
@@ -735,6 +806,55 @@
         "phone": "0544 827 51 63",
         "date": "2025-05-23",
         "time": "17:16:45.706290",
-        "other_data": "Kimlik numarası 2411081509 olan öğrenci, e-posta adresi: heriberto.fech@gmail.com"
+        "other_data": "Kimlik numarası 2411081509 olan öğrenci, e-posta adresi: heriberto.fech@gmail.com",
+        "Visitor_type": "Sakin"
+    },
+    {
+        "id": 84,
+        "name": "Norberto",
+        "surname": "Prieto Alfaro",
+        "phone": "0534 286 66 69",
+        "date": "2025-06-17",
+        "time": "18:11:02.247034"
+    },
+    {
+        "id": 85,
+        "name": "Mustafa",
+        "surname": "Osma Hernandez",
+        "phone": "0544 286 67 69",
+        "date": "2025-06-17",
+        "time": "18:12:35.867518"
+    },
+    {
+        "id": 86,
+        "name": "Engin",
+        "surname": "Yaman",
+        "phone": "0545 100 17 43",
+        "date": "2025-06-17",
+        "time": "19:00:12.119501"
+    },
+    {
+        "id": 87,
+        "name": "Zeynep",
+        "surname": "Duyar",
+        "phone": "0555 169 11 43",
+        "date": "2025-06-17",
+        "time": "21:40:28.735772"
+    },
+    {
+        "id": 88,
+        "name": "Damla",
+        "surname": "Demirci",
+        "phone": "0505 102 57 63",
+        "date": "2025-06-17",
+        "time": "21:54:39.596055"
+    },
+    {
+        "id": 89,
+        "name": "Mario Enrique",
+        "surname": "Motede",
+        "phone": "0555 169 18 43",
+        "date": "2025-06-17",
+        "time": "21:57:40.956426"
     }
 ]

@@ -23,5 +23,7 @@ class Visitor(db.Model):
     phone = db.Column(db.String(15), nullable=False)
     date = db.Column(db.Date, nullable=False)
     time = db.Column(db.Time, nullable=False)
+    visitor_type = db.Column(db.String(50), nullable=False) ###### (yeni uygulama)
     other_data = db.Column(db.Text, nullable=True)
+
 

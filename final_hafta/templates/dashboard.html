@@ -1,9 +1,16 @@
 {% extends "base.html" %}
 {% block page_class %}dashboard-background{% endblock %}
 {% block content %}
-
 <div class="container mt-4">
-    <!-- istatistik çubuğu -->
+    <!-- istatistik çubuğu // yeni uygulama-->
+     <div class="text-end gap-2 mb-3">
+    <a href="{{ url_for('export_csv') }}" class="btn btn-secondary">📁 CSV'yi dışa aktar</a>
+    <a href="{{ url_for('export_pdf') }}" class="btn btn-dark">📄 PDF'yi dışa aktar</a>
+    <a href="{{ url_for('statistics') }}" class="btn btn-outline-primary">📊 Ziyaretçi İstatistiklerini Görüntüle</a>
+    </div>
+    <!---->
+
+</div>
     <div class="d-flex justify-content-between align-items-center bg-light shadow-sm rounded p-2 mb-3">
         <div class="d-flex gap-3">
             <div class="stat-box d-flex align-items-center">
@@ -45,7 +52,24 @@
     <div class="card shadow blurred-box">
         <div class="card-header bg-gradient text-white">
             <h5 class="fw-bold fs-3">Ziyaretçi Listesi</h5>
-        </div>
+        </div> 
+        
+        <!--yeni uygulama-->
+        <a href="{{ url_for('register_visitor') }}" class="btn btn-primary mb-3">➕ Ziyaretçiyi kaydet</a>
+
+        <form method="GET" class="d-flex gap-2 mb-3">
+            <input type="date" name="date_filter" class="form-control" placeholder="Tarih Seçin">
+                <select name="visitor_type_filter" class="form-control">
+                    <option value="">Tüm Ziyaretçiler</option>
+                    <option value="Misafir">Misafir</option>
+                    <option value="Tedarikçi">Tedarikçi</option>
+                    <option value="Aile üyesi">Aile Üyesi</option>
+                    <option value="Sakin">Sakin</option>
+             </select>
+             <button type="submit" class="btn btn-primary">Filtrele</button>
+        </form>
+        <!---->
+
         <div class="card-body">
             <table class="table table-hover">
                 <thead class="table-primary text-white">
@@ -63,7 +87,10 @@
                 <tbody>
                     {% for visitor in visitors %}
                     <tr>
-                        <td>{{ visitor.id }}</td>
+                        <td>
+                            <span class="visitor-color {% if visitor.visitor_type == 'Misafir' %}bg-dark{% elif visitor.visitor_type == 'Tedarikçi' %}bg-warning{% elif visitor.visitor_type == 'Aile üyesi' %}bg-info{% elif visitor.visitor_type == 'Sakin' %}bg-success{% endif %}">
+                            </span>
+                            {{ visitor.id }}</td>
                         <td>{{ visitor.name }}</td>
                         <td>{{ visitor.surname }}</td>
                         <td>{{ visitor.phone }}</td>
@@ -85,3 +112,4 @@
     </div>
 </div>
 {% endblock %}
+

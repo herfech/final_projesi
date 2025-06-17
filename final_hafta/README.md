@@ -102,7 +102,4 @@ Final_hafta/
 ### 🔹 Kartlar ve Arayüz  
 - Gölgeli tasarım (shadow)  
 - Hover efektleri  
-- Bootstrap ikon entegrasyonu
-
-Render sitesinin bağlantısı
-https://ziyaretci-kayit.onrender.com
+- Bootstrap ikon entegrasyonu  
