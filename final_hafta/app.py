@@ -330,7 +330,7 @@ def export_pdf():
         pdf.cell(30, 10, str(v.date), border=1)
         pdf.cell(30, 10, v.time.strftime('%H:%M:%S'), border=1)
         pdf.ln(10)  # Her ziyaretçiden sonra yeni satır
-    #Hataları önlemek için PDF'yi UTF-8 kodlamasıyla dışa aktarın
+    ##Hataları önlemek için PDF'yi UTF-8 kodlamasıyla dışa aktarın
     return Response(pdf.output(dest='S').encode('latin1'), mimetype="application/pdf", headers={"Content-Disposition": "attachment; filename=visitors.pdf"})
 
 ####yeni uygulama
@@ -381,8 +381,6 @@ def statistics():
                            selected_month=selected_month,
                            top_visitors=top_visitors,
                            visits_by_month=visits_by_month)
-
-
 
 # Uygulamayı çalıştırma
 if __name__ == '__main__':
