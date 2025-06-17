@@ -1,5 +1,5 @@
 .index-background {
-    background-image: url('/static/img/white-building-cloudy-sky1.png');
+    background-image: url('/static/img/analog-landscape-city-with-buildings.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -159,3 +159,32 @@ form input:focus {
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
+body.dark-mode {
+    background-color: #121212;
+    color: #ffffff;
+}
+
+
+
+button:hover {
+    background-color: #0b5ed7;
+}
+
+.dark-mode button {
+    background-color: #ffffff;
+    color: #121212;
+}
+
+.dark-mode button:hover {
+    background-color: #e3e3e3;
+}
+
+
+/*Ziyaretçi tiplerini renge göre ayırt edin (yeni)*/
+.visitor-color {
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    border-radius: 50%;
+    margin-right: 5px;
+}
