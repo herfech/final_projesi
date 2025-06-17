@@ -1,3 +1,4 @@
+NOT: Proje güncellemesinin açıklaması final_version.md dosyasındadır.
 
 # Ziyaretçi Kayıt Sistemi
 
